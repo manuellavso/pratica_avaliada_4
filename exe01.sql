@@ -57,7 +57,7 @@ SELECT * FROM tb_curso;
 SELECT * FROM tb_aluno;
 
 -- 5. Filtrar os alunos maiores de idade:
-SELECT * FROM tb_aluno WHERE idade > 18;
+SELECT * FROM tb_aluno WHERE idade >= 18;
 
 -- 6. Atualizar um registro:
 UPDATE tb_aluno SET idade = 23 WHERE id_aluno = 2;
